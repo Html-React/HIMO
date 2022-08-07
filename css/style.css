@@ -90,12 +90,6 @@ body {
   align-items: center;
 }
 
-.logo {
-}
-
-.logo__img {
-}
-
 /***** MENU *****/
 
 .menu {
@@ -105,9 +99,6 @@ body {
 .menu__list {
   display: flex;
   gap: 10px;
-}
-
-.menu__item {
 }
 
 .menu__link {
@@ -137,9 +128,6 @@ body {
 .bike__top {
   display: flex;
   justify-content: space-between;
-}
-
-.bike__column {
 }
 
 .bike-column__slider {
@@ -189,13 +177,6 @@ body {
 
 .bike__link:focus-visible {
   background: var(--color-Red);
-}
-
-
-.bike__slider {
-}
-
-.bike-slider__img {
 }
 
 .bike__list {
@@ -269,12 +250,6 @@ body {
   margin-right: 60px;
 }
 
-.article__img {
-}
-
-.article-content__text {
-}
-
 .article__list {
   display: flex;
   height: 100%;
@@ -330,6 +305,7 @@ body {
   padding: 2px 0;
   margin-bottom: 5px;
 }
+
 .features-item__content {
   display: flex;
   width: 100%;
@@ -347,9 +323,6 @@ body {
 }
 .features-content__img {
   align-self: center;
-}
-
-.features-img__display {
 }
 
 .slider__top {
@@ -410,13 +383,16 @@ body {
   padding-bottom: 10px;
 
 }
+
 .order-box__select {
   display: flex;
   margin-bottom: 50px;
 }
+
 .order__select:not(:last-child) {
   padding-right: 15px;
 }
+
 .order-select__radio {
   position: absolute;
   z-index: -1;
@@ -473,25 +449,6 @@ body {
   cursor: pointer;
 }
 
-/* .order-radio__style {
-  border-radius: 30px;
-  width: 80px;
-  height: 12px;
-  cursor: pointer;
-}
-.order-radio__style--grey {
-  background: var(--color-Dim_Gray);
-}
-
-.order-radio__style--white {
-  background: var(--color-White);
-  border: 1px solid var(--color-Dim_Gray);
-}
-
-.order-radio__style--red {
-  background: var(--color-Red);
-} */
-
 .order__btn {
   font-weight: 400;
   font-size: 20px;
@@ -520,10 +477,6 @@ body {
 /***** FOOTER *****/
 
 .footer__content {
-  /* position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0; */
   background: var(--color-Blackish_Green);
 }
 
@@ -578,6 +531,7 @@ body {
   .bike {
     padding: 0;
   }
+
   .bike__top {
     display: flex;
     flex-wrap: wrap;
@@ -591,25 +545,31 @@ body {
     padding-top: 20px;
     text-align: center;
   }
+
   .bike__beginning {
     text-align: center;
     padding-bottom: 12px;
   }
+
   .bike__basik {
     max-width: 100%
   }
+
   .bike__link {
     margin-top: 0;
     margin: 0 auto;
   }
+
   .bike__column {
     order: 2;
   }
+
   .bike-column__slider {
     max-width: 100%;
     order: 1;
     margin-left: 0;
   }
+
   .bike__list {
     justify-content:space-evenly;
     margin-left: 0;
@@ -617,70 +577,83 @@ body {
   .article-content__img {
     display: none;
   }
+
   .article {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
   .article__list {
     gap: 25px;
   }
+
   .article-item__text {
     padding-right: 0%;
   }
+
   .features-content__img {
     display: none;
   }
+
   .features-content__text {
     width: 100%;
   }
+
   .features__top {
     padding-bottom: 50px;
   }
+
   .order__top {
     width: 100%;
   }
+
   .order-select__baik {
     width: 50%;
     top: 37px;
     right: 0;
   }
+
   .order__price {
     top: 0;
     left: -127px;
   }
+
   .order-select__img {
     width: 100%;
     right: 0;
     left: 0;
   }
-  /* .order__forms {
-    width: 420px;
-  } */
 }
 
 @media (max-width: 991px) {
   .menu {
     margin-right: 0;
   }
+
   .slider__img {
     padding-left: 25px;
   }
+
   .order-box__select {
     margin-bottom: 400px;
   }
+
   .order-select__baik {
     width: 100%;
     left: 0;
     right: 0;
     top: 340px;
   }
+
   .order__btn {
     padding: 28px 117px;
   }
+
   .order__price {
     top: -100px;
     left: 272px;
   }
+
   .order-select__img {
     width: 470px;
   }
@@ -704,48 +677,59 @@ body {
     gap: 0px;
     justify-content:space-evenly;
   }
+
   .bike__slider .slick-dots {
     top:0;
   }
+
   .bike_item {
     min-width: 0;
     width: 100%;
   }
+
   .order__text {
     max-width: 100%;
   }
+
   .order__btn {
     display: block;
     margin: 0 auto;
   }
+
   .order__forms {
     max-width: 100%;
   }
+
   .order-select__baik {
     text-align: center;
   }
-
 }
+
 @media (max-width: 529px) {
   .order__price {
     left: 0;
   }
+
   .order-select__img {
     width: 100%;
   }
+
   .order__btn {
     max-width: 420px;
     padding: 28px 81px;
   }
+
   .order__price {
     border: none;
     height: 36px;
     top: -47px;
   }
+
   .order__price::after {
     border: none;
     height: 30px;
   }
+
     .footer__list {
       flex-direction: column;
       gap: 10px;
@@ -756,8 +740,10 @@ body {
   .menu__link {
     padding: 7px;
   }
+
   .bike__title {
-    font-size: 40px;
+    fo
+    nt-size: 40px;
   }
   .bike__link {
     max-width: 100%;
@@ -766,45 +752,57 @@ body {
     padding: 28px 0px;
     text-align: center;
   }
+
   .bike__list {
     flex-direction: column;
     gap: 20px;
   }
+
   .bike-item__text{
     padding: 2px;
     font-size: 17px;
   }
+
   .bike_item {
     font-size: 20px;
   }
+
   .features-item__content {
     flex-direction: column;
     text-align: center;
   }
+
   .feature-item__description {
     padding-bottom: 20px;
     width: 100%;
   }
+
   .feature-item__name {
     width: 100%;
     padding-right: 0;
   }
+
   .features-item__headers {
     text-align: center;
   }
+
   .features__list {
     padding-top: 0;
   }
+
   .slider__img {
     padding-left: 10px;
   }
+
   .features__top {
     padding-bottom: 10px;
   }
+
   .order-box__select {
     margin-bottom: 370px;
     justify-content: center;
   }
+
   .order__btn {
     display: flex;
     width: 100%;
@@ -813,12 +811,15 @@ body {
     padding: 28px 0px;
    justify-content: center;
   }
+
   .order-select__img {
     width: 100%;
   }
+
   .order__price {
     font-size: 25px;
   }
+
   .order__top {
     margin-bottom: 20px;
   }
@@ -835,17 +836,21 @@ body {
     padding: 5px;
     font-size: 13px;
   }
+
   .bike__link {
     font-size: 17px;
   }
+
   .bike__title {
     font-size: 30px;
   }
+
   .bike__beginning {
     font-size: 18px;
     padding: 0 0 20px 0;
     line-height: 0;
   }
+
   .order__btn {
     font-size: 17px;
   }
